@@ -6,6 +6,13 @@ f1 <- function(n) {
   squares_sum
 }
 
-n <- 1:10000
+###test function 2
 
-f1(n)
+f2<-function (n){
+  sum(n^2)
+}
+
+#bench marking
+library(bench)
+n<-100
+print(mark(f1(n),f2(n)))
