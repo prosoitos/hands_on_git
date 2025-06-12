@@ -1,1 +1,1 @@
-touch 2025-{jan..dec}-{01..31}
+touch 2025-{Jan..Dec}-{01..31}
