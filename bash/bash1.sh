@@ -1,2 +1,6 @@
+
+function check() {
+}
+
 function check() {
 }
