@@ -6,6 +6,10 @@ f1 <- function(n) {
   squares_sum
 }
 
-n <- 1:10000
 
+f2 <- function(n) {
+  sum(n^2)
+}
+n <- 1:10000
 f1(n)
+f2(n)
