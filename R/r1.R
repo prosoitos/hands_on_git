@@ -13,3 +13,5 @@ f1(n)
 f2 <- function(n) {
 	sum(n^2)
 }
+
+mark(f1(n), f2(n))
