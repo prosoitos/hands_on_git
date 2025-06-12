@@ -1,1 +1,4 @@
-# write a loop to replace spaces to underscores in all file names in the current directory
+for file in *; do
+	echo "${file// /_}"
+	mv "$file" "${file// /_}"
+done
