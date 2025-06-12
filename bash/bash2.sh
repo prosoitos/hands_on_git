@@ -5,7 +5,7 @@ then
 else
  for i in $@
  do
-  echo $i has $(cd $i | ls -l | wc -l) files
+  echo $i has $(cd $i | ls -1a | wc -l) files
  done
 fi
  }
