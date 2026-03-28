@@ -9,3 +9,8 @@ f1 <- function(n) {
 n <- 1:10000
 
 f1(n)
+
+
+f2 <- function(n) {
+  sum(n^2)
+}
